@@ -43,7 +43,7 @@ public class AddProduct extends Baseclass {
         Elements.password_txt.sendKeys("Pass@1234");
         Elements.signin_btn.click();
 
-        FileInputStream fi = new FileInputStream("C:\\Users\\shruti.sachan\\IdeaProjects\\Maven_Project\\src\\test\\java\\TestData\\amazonprduct.xlsx");
+        FileInputStream fi = new FileInputStream("C:\\Users\\beast\\Final_sub_git\\src\\test\\java\\TestData\\amazonprduct.xlsx");
         XSSFWorkbook w1 = new XSSFWorkbook(fi);
         XSSFSheet s1 = w1.getSheetAt(0);
         //Create a loop to print cell values in a row

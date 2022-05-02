@@ -14,7 +14,7 @@ public class Baseclass
         public void setupApplication()
         {
             Reporter.log("=====Browser Session Started=====", true);
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\shruti.sachan\\Downloads\\chromedriver_win32\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\beast\\Downloads\\chromedriver_win32\\chromedriver.exe");
             driver=new ChromeDriver();
             driver.manage().window().maximize();
             driver.get("https://www.amazon.in/");
